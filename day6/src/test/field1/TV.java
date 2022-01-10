@@ -1,9 +1,9 @@
 package test.field1;
-//
+
 public class TV {
 	String color;
 	int size;
-	public static String PRODUCER = "LGÃ€Ã¼Ã€Ãš";
+	public static String PRODUCER = "LGÀüÀÚ";
 	
 	public TV(String color, int size) {
 		this.color = color;
@@ -19,7 +19,7 @@ public class TV {
 	}*/
 	
 	public TV() {
-		this("Â»Ã¶Â±Ã² Â¾Ã¸Ã€Â½",0);
+		this("»ö±ò ¾øÀ½",0);
 	}
 	
 	public String getColor() {
