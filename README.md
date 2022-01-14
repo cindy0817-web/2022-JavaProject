@@ -6,12 +6,12 @@
 > 9AM ~ 11:50AM  
 
 
-## 📃link
+### 📃link
 * Lecture Note
 * https://docs.google.com/document/d/1KxtIpq6z9dzLTh7VIIkgyZ4uJ521zPOVY5j9jrokgX8/edit?usp=sharing
 
 
-## 🌞Projects
+### 🌞Projects
 mvc 다이어그램 클래스를 이용한 프로젝트들입니다.
 > 1. 성적처리program
 > 2. 분식 KIOSK program
