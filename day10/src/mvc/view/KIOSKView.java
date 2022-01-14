@@ -31,13 +31,13 @@ public class KIOSKView {
 		return menuName;
 	}
 	
-	public void paint() {
-		System.out.println("======================== 주문내역 ========================");		
+	public void print() {
+		System.out.println("================== 주문내역 ==================");		
 		for(int i = 0; i < orderMenuArrList.size(); i++) {
 //			ArrayList에 저장된 OrderMEnuVO의 객체 참조값을 반환 받아서 지역변수에 저장한다.
 			OrderMenuVO om = orderMenuArrList.get(i);
 //			OrderMenuVo 객체의 정보를 반환하여 주문내역을 출력한다.(반복)
-			int price = om.getMenuPrice()*om.getMenuCount();
+			int price = om.getMenuPrice();
 			int count = om.getMenuCount();
 			System.out.printf("%d. %s : %d원 주문개수(%d) 합계 : %d\n",
 								(i+1), getMenuName(om.getMenuNo()), om.getMenuPrice(), count, price*count);
